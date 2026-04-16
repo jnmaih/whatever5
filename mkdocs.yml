@@ -1,0 +1,10 @@
+site_name: "whatever6 TechDocs"
+site_description: Demo nginx sample for Backstage TechDocs with GitHub CI
+site_author: "Juergen Maihoefner"
+nav:
+  - Home: index.md
+  - Setup: setup.md
+plugins:
+  - techdocs-core
+extra:
+  generator: techdocs
