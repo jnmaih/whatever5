@@ -9,7 +9,8 @@ metadata:
     # Optionally trigger the GitHub Actions plugin (if installed).
     # Replace with your own GitHub slug in the entity after registration.
     github.com/project-slug: 'jnmaih/whatever5'
+    github.com/workflows: ci.yml
 spec:
   type: service
-  owner: group:default/team-b
+  owner: group:default/data-out
   lifecycle: experimental
